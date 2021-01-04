@@ -35,4 +35,4 @@ file4.o:file4.c file0.h file4.h
 # Custom rule - we can invoke it manually by calling "make clean"
 # We usually have a "clean" rule to delete any automatically generated files
 $(RM):
-	rm -rf *.o *.exe
+	rm -rf*.o*.exe
